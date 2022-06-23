@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-output';
+
+  onomatopoeias: string [] = [];
+
+  onReceiveNewOnomatopia(newOnomatopia:string): void {
+    console.log(newOnomatopia)
+  }
 }
