@@ -9,7 +9,7 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 export class CreateOnomatopiaComponent implements OnInit {
  
  @Output()
-  sendOnomatopiaToParent: EventEmitter<string> = new EventEmitter<string>();  
+  sendOnomatopiaToParent: EventEmitter<string> = new EventEmitter();  
   newOnomatopia: string = "";
 
   constructor() {}
