@@ -11,6 +11,6 @@ export class AppComponent {
   onomatopoeias: string [] = [];
 
   onReceiveNewOnomatopia(newOnomatopia:string): void {
-    console.log(newOnomatopia)
+   this.onomatopoeias.push(newOnomatopia);
   }
 }
